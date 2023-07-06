@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -fopenmp -L/usr/local/opt/llvm/lib CMakeFiles/OpenMP_TD.dir/main.cpp.o -o OpenMP_TD   -L/usr/local/Cellar/libomp/16.0.4/lib  -Wl,-rpath,/usr/local/Cellar/libomp/16.0.4/lib -lomp 
